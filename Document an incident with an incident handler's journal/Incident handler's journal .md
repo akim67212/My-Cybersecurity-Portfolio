@@ -1,8 +1,5 @@
 **Incident handler's journal**
 
-**Instructions**
-
-As you continue through this course, you may use this template to record your findings after completing an activity or to take notes on what you've learned about a specific tool or concept. You can also use this journal as a way to log the key takeaways about the different cybersecurity tools or concepts you encounter in this course.
 
 | Date:  11/20/2024 | Entry: \#1 |  |  |
 | :---- | :---- | ----- | ----- |
