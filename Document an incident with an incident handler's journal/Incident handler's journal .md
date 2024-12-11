@@ -10,12 +10,12 @@
 
 ---
 
-| Date:  Record the date of the journal entry. | Entry: Record the journal entry number. |  |  |
+| Date:  12/11/2024 | Entry: #2 |  |  |
 | :---- | :---- | ----- | ----- |
 | Description | Responding to a cybersecurity alert |  |  |
 | Tool(s) used | VirusTotal |  |  |
 | The 5 W's  | Capture the 5 W's of an incident. **Who** caused the incident? A threat actor **What** happened? A suspicious file was downloaded on an employee's computer **When** did the incident occur? N/A **Where** did the incident happen? At a financial services company **Why** did the incident happen? The employee received an email containing an attachment. The attachment was a password-protected spreadsheet file. The spreadsheet's password was provided in the email. The employee downloaded the file, then entered the password to open the file. When the employee opened the file, a malicious payload was then executed on their computer.   |  |  |
-| Additional notes | The file has been reported as malicious by over 50 vendors. Used VrusTotal to investigate the suspicious file. The file is known as malware Flagpro|  |  |
+| Additional notes | The file has been reported as malicious by over 50 vendors. Used VirusTotal to investigate the suspicious file. The file is known as malware Flagpro|  |  |
 
 ---
 
