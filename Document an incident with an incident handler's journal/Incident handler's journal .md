@@ -22,7 +22,7 @@
 | Date:  12/12/2024 | Entry: #3 |  |  |
 | :---- | :---- | ----- | ----- |
 | Description | Documenting a security incident |  |  |
-| Tool(s) used | List any cybersecurity tools that were used. |  |  |
+| Tool(s) used | N/A |  |  |
 | The 5 W's  | Capture the 5 W's of an incident. **Who** caused the incident? A threat actor **What** happened? an individual was able to gain unauthorized access to customer identifiable information and financial information. **When** did the incident occur? December 28, 2022 at 7:20 pm PT **Where** did the incident happen? At a mid-sized retail company **Why** did the incident happen? The root cause of the incident was identified as a vulnerability in the e-commerce web application. This vulnerability allowed the attacker to perform a forced browsing attack and access customer transaction data by modifying the order number included in the URL string of a purchase confirmation page. This vulnerability allowed the attacker to access customer purchase confirmation pages, exposing customer data, which the attacker then collected and exfiltrated. |  |  |
 | Additional notes | Include any additional thoughts, questions, or findings. |  |  |
 
