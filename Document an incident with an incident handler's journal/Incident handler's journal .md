@@ -28,21 +28,22 @@
 
 ---
 
-| Date:  Record the date of the journal entry. | Entry: Record the journal entry number. |  |  |
+| Date:  12/20/24 | Entry: #4 |  |  |
 | :---- | :---- | ----- | ----- |
-| Description | Provide a brief description about the journal entry. |  |  |
-| Tool(s) used | List any cybersecurity tools that were used. |  |  |
-| The 5 W's  | Capture the 5 W's of an incident. **Who** caused the incident? **What** happened? **When** did the incident occur? **Where** did the incident happen? **Why** did the incident happen? |  |  |
+| Description | Perform a query with Splunk |  |  |
+| Tool(s) used | Splunk |  |  |
+| The 5 W's  | Capture the 5 W's of an incident. **Who** caused the incident Users? **What** happened? I am a security analyst working at the e-commerce store Buttercup Games. I've been tasked with identifying whether there are any possible security issues with the mail server. Using the SIEM tool Splunk, I found that weere approximately 346 failed SSH logins for the root account on the mail server.  **When** did the incident occur? 3/6/2023 1:39 AM **Where** did the incident happen? At the e-commerce store Buttercup Games **Why** did the incident happen? Unidentified threat actors couldn't login into the mail server |  |  |
 | Additional notes | Include any additional thoughts, questions, or findings. |  |  |
 
 ---
 
-| Date:  Record the date of the journal entry. | Entry: Record the journal entry number. |  |  |
+| Date:  12/20/2024 | Entry: #5 |  |  |
 | :---- | :---- | ----- | ----- |
-| Description | Provide a brief description about the journal entry. |  |  |
-| Tool(s) used | List any cybersecurity tools that were used. |  |  |
-| The 5 W's  | Capture the 5 W's of an incident. **Who** caused the incident? **What** happened? **When** did the incident occur? **Where** did the incident happen? **Why** did the incident happen? |  |  |
-| Additional notes | Include any additional thoughts, questions, or findings. |  |  |
+| Description | Documenting a security incident involving phishing |  |  |
+| Tool(s) used | Chronicle |  |  |
+| The 5 W's  | Capture the 5 W's of an incident. **Who** caused the incident A threat actor? **What** happened? I received an alert that an employee received a phishing email in their inbox.  **When** did the incident occur? **Where** did the incident happen? At a financial services company **Why** did the incident happen? A threat actor wanted to use the phishing email to steal assets about the company. |  |  |
+| Additional notes | Include any additional thoughts, questions, or findings. There are 6 assets that have accessed the domain which means multiple assests might have been impacted by the phishing campaign. They are ashton-davidson-pc, bruce-monroe-pc, coral-alvarez-pc, emil-palmer-pc, jude-reyes-pc, and roger-spencer-pc. There were additional post request located when accessing IP address of the domain for the phishing email. There were additional affected assets found. There were additional domain found such as signin.accounts-gooqle.com and signin.office365x24.com
+ |  |  |
 
 ---
 
