@@ -32,7 +32,7 @@
 | :---- | :---- | ----- | ----- |
 | Description | Perform a query with Splunk |  |  |
 | Tool(s) used | Splunk |  |  |
-| The 5 W's  | Capture the 5 W's of an incident. **Who** caused the incident Users? **What** happened? I am a security analyst working at the e-commerce store Buttercup Games. I've been tasked with identifying whether there are any possible security issues with the mail server. Using the SIEM tool Splunk, I found that weere approximately 346 failed SSH logins for the root account on the mail server.  **When** did the incident occur? 3/6/2023 1:39 AM **Where** did the incident happen? At the e-commerce store Buttercup Games **Why** did the incident happen? Unidentified threat actors couldn't login into the mail server |  |  |
+| The 5 W's  | Capture the 5 W's of an incident. **Who** caused the incident Users? **What** happened? I am a security analyst working at the e-commerce store Buttercup Games. I've been tasked with identifying whether there are any possible security issues with the mail server. Using the SIEM tool Splunk, I found that that were approximately 346 failed SSH logins for the root account on the mail server.  **When** did the incident occur? 3/6/2023 1:39 AM **Where** did the incident happen? At the e-commerce store Buttercup Games **Why** did the incident happen? Unidentified threat actors couldn't login into the mail server |  |  |
 | Additional notes | Include any additional thoughts, questions, or findings. |  |  |
 
 ---
@@ -47,18 +47,13 @@
 
 ---
 
-| Date:  Record the date of the journal entry. | Entry: Record the journal entry number. |  |  |
+| Date:  12/21/2024 | Entry: #6 |  |  |
 | :---- | :---- | ----- | ----- |
-| Description | Provide a brief description about the journal entry. |  |  |
-| Tool(s) used | List any cybersecurity tools that were used. |  |  |
+| Description | Reflection |  |  |
+| Tool(s) used | N/A |  |  |
 | The 5 W's  | Capture the 5 W's of an incident. **Who** caused the incident? **What** happened? **When** did the incident occur? **Where** did the incident happen? **Why** did the incident happen? |  |  |
-| Additional notes | Include any additional thoughts, questions, or findings. |  |  |
-
-### Need another journal entry template?
-
-If you want to add more journal entries, please copy one of the tables above and paste it into the template to use for future entries.  
+| Additional notes | Were there any specific activities that were challenging for you? Why or why not? I found the Chronicle activity challenging because it was difficult for me to navigate the tool to find the information I needed at times. However, I eventually got more comfortable with the tool. Has your understanding of incident detection and response changed since taking this course? Yes, I now have a deeper understanding of detection and response after completing this course and what would be expected of me as a security analyst to handle incidents within an organization. Was there a specific tool or concept that you enjoyed the most? Why? The tool I enjoyed the most was the Splunk SIEM tool becaue I I enjoyed using the Search Processing Language (SPL) to locate log information that I was looking for. |  |  |
+ 
 ---
 
-| Reflections/Notes: Record additional notes. |
-| :---- |
 
