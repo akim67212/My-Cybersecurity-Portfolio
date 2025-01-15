@@ -12,7 +12,7 @@ The following code demonstrates how I created a SQL query to filter for failed l
 
 ![lab1](https://github.com/user-attachments/assets/3fd38e5c-5169-4ba2-b5e6-74afae05e2b1)
 
-The first part of the screenshot is my query, and the second part is a portion of the output. This query filters for failed login attempts that occurred after 18:00. First, I started by selecting all data from the log\_in\_attempts table. Then, I used a WHERE clause with an AND operator to filter my results to output only login attempts that occurred after 18:00 and were unsuccessful. The first condition is login\_time \> '18:00', which filters for the login attempts that occurred after 18:00. The second condition is success \= 0, which filters for the failed login attempts. 
+The first part of the screenshot is my query, and the second part is a portion of the output. This query filters for failed login attempts that occurred after 18:00. First, I started by selecting all data from the <mark>log\_in\_attempts</mark> table. Then, I used a <mark>WHERE</mark> clause with an <marm>AND</mark> operator to filter my results to output only login attempts that occurred after 18:00 and were unsuccessful. The first condition is <mark>login\_time \> '18:00'</mark>, which filters for the login attempts that occurred after 18:00. The second condition is <mark>success \= 0</mark>, which filters for the failed login attempts. 
 
 ## 
 
@@ -25,7 +25,7 @@ The following code demonstrates how I created a SQL query to filter for login at
 
 ![lab2](https://github.com/user-attachments/assets/26dfd30b-6ea4-40ba-af95-2dfee826e84c)
 
-The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all login attempts that occurred on 2022-05-09 or 2022-05-08. First, I started by selecting all data from the log\_in\_attempts table. Then, I used a WHERE clause with an OR operator to filter my results to output only login attempts that occurred on either 2022-05-09 or 2022-05-08. The first condition is login\_date \= '2022-05-09', which filters for logins on 2022-05-09. The second condition is login\_date \= '2022-05-08', which filters for logins on 2022-05-08.
+The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all login attempts that occurred on 2022-05-09 or 2022-05-08. First, I started by selecting all data from the <marm>log\_in\_attempts</mark> table. Then, I used a <markWHERE</mark> clause with an OR operator to filter my results to output only login attempts that occurred on either 2022-05-09 or 2022-05-08. The first condition is <mark>login\_date \= '2022-05-09'</mark>, which filters for logins on 2022-05-09. The second condition is <mark>login\_date \= '2022-05-08'</mark>, which filters for logins on 2022-05-08.
 
 ## Retrieve login attempts outside of Mexico
 
@@ -34,7 +34,7 @@ After investigating the organization’s data on login attempts, I believe there
 The following code demonstrates how I created a SQL query to filter for login attempts that occurred outside of Mexico.   
  ![lab3](https://github.com/user-attachments/assets/b7997dfb-b2ef-42fc-892d-3a1df05c07ac)
 
-The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all login attempts that occurred in countries other than Mexico. First, I started by selecting all data from the log\_in\_attempts table. Then, I used a WHERE clause with NOT to filter for countries other than Mexico. I used LIKE with MEX% as the pattern to match because the dataset represents Mexico as MEX and MEXICO. The percentage sign (%) represents any number of unspecified characters when used with LIKE
+The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all login attempts that occurred in countries other than Mexico. First, I started by selecting all data from the <mark>log\_in\_attempts</mark> table. Then, I used a <mark>WHERE</mark> clause with <mark>NOT</mark> to filter for countries other than Mexico. I used <mark>LIKE</mark> with MEX% as the pattern to match because the dataset represents Mexico as MEX and MEXICO. The percentage sign <mark>(%)</mark> represents any number of unspecified characters when used with <mark>LIKE</mark>
 
 ## Retrieve employees in Marketing
 
@@ -45,7 +45,7 @@ The following code demonstrates how I created a SQL query to filter for employee
 ![lab4](https://github.com/user-attachments/assets/b4133915-81f4-462f-a262-8d961e8e62e8)
 
 
-The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all employees in the Marketing department in the East building. First, I started by selecting all data from the employees table. Then, I used a WHERE clause with AND to filter for employees who work in the Marketing department and in the East building. I used LIKE with East% as the pattern to match because the data in the office column represents the East building with the specific office number. The first condition is the department \= 'Marketing' portion, which filters for employees in the Marketing department. The second condition is the office LIKE 'East%' portion, which filters for employees in the East building.
+The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all employees in the Marketing department in the East building. First, I started by selecting all data from the <mark>employees</mark> table. Then, I used a <mark>WHERE</mark> clause with <mark>AND</mark> to filter for employees who work in the Marketing department and in the East building. I used <mark>LIKE</mark> with <mark>East%</mark> as the pattern to match because the data in the office column represents the East building with the specific office number. The first condition is the <mark>department \= 'Marketing'</mark> portion, which filters for employees in the Marketing department. The second condition is the <mark>office LIKE 'East%'</mark> portion, which filters for employees in the East building.
 
 ## Retrieve employees in Finance or Sales
 
@@ -56,7 +56,7 @@ The following code demonstrates how I created a SQL query to filter for employee
 ![lab5](https://github.com/user-attachments/assets/86945828-3266-4d3e-8342-60869a3603a9)
 
 
-The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all employees in the Finance and Sales departments. First, I started by selecting all data from the employees table. Then, I used a WHERE clause with OR to filter for employees who are in the Finance and Sales departments. I used the OR operator instead of AND because I want all employees who are in either department. The first condition is department \= 'Finance', which filters for employees from the Finance department. The second condition is department \= 'Sales', which filters for employees from the Sales department.
+The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all employees in the Finance and Sales departments. First, I started by selecting all data from the <mark>employees</mark> table. Then, I used a (mark>WHERE</mark> clause with <mark>OR</mark> to filter for employees who are in the Finance and Sales departments. I used the <mark>OR</mark> operator instead of AND because I want all employees who are in either department. The first condition is <mark>department \= 'Finance'</mark>, which filters for employees from the Finance department. The second condition is <mark>department \= 'Sales'</mark>, which filters for employees from the Sales department.
 
 ## 
 
@@ -72,7 +72,7 @@ The following demonstrates how I created a SQL query to filter for employee mach
 
 ![lab6](https://github.com/user-attachments/assets/d799789d-096b-41ab-8e7b-f09eb9c1430a)
 
-The first part of the screenshot is my query, and the second part is a portion of the output. The query returns all employees not in the Information Technology department. First, I started by selecting all data from the employees table. Then, I used a WHERE clause with NOT to filter for employees not in this department.
+The first part of the screenshot is my query, and the second part is a portion of the output. The query returns all employees not in the Information Technology department. First, I started by selecting all data from the <mark>employees</mark> table. Then, I used a <mark>WHERE</mark> clause with <mark>NOT</mark> to filter for employees not in this department.
 
 ## Summary
 
