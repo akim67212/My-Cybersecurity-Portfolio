@@ -12,7 +12,7 @@ The following code demonstrates how I created a SQL query to filter for failed l
 
 ![lab1](https://github.com/user-attachments/assets/3fd38e5c-5169-4ba2-b5e6-74afae05e2b1)
 
-The first part of the screenshot is my query, and the second part is a portion of the output. This query filters for failed login attempts that occurred after 18:00. First, I started by selecting all data from the <mark>log\_in\_attempts</mark> table. Then, I used a <mark>WHERE</mark> clause with an <marm>AND</mark> operator to filter my results to output only login attempts that occurred after 18:00 and were unsuccessful. The first condition is <mark>login\_time \> '18:00'</mark>, which filters for the login attempts that occurred after 18:00. The second condition is <mark>success \= 0</mark>, which filters for the failed login attempts. 
+The first part of the screenshot is my query, and the second part is a portion of the output. This query filters for failed login attempts that occurred after <mark>18:00</mark>. First, I started by selecting all data from the <mark>log\_in\_attempts</mark> table. Then, I used a <mark>WHERE</mark> clause with an <mark>AND</mark> operator to filter my results to output only login attempts that occurred after 18:00 and were unsuccessful. The first condition is <mark>login\_time \> '18:00'</mark>, which filters for the login attempts that occurred after 18:00. The second condition is <mark>success \= 0</mark>, which filters for the failed login attempts. 
 
 ## 
 
@@ -25,7 +25,7 @@ The following code demonstrates how I created a SQL query to filter for login at
 
 ![lab2](https://github.com/user-attachments/assets/26dfd30b-6ea4-40ba-af95-2dfee826e84c)
 
-The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all login attempts that occurred on 2022-05-09 or 2022-05-08. First, I started by selecting all data from the <marm>log\_in\_attempts</mark> table. Then, I used a <markWHERE</mark> clause with an OR operator to filter my results to output only login attempts that occurred on either 2022-05-09 or 2022-05-08. The first condition is <mark>login\_date \= '2022-05-09'</mark>, which filters for logins on 2022-05-09. The second condition is <mark>login\_date \= '2022-05-08'</mark>, which filters for logins on 2022-05-08.
+The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all login attempts that occurred on 2022-05-09 or 2022-05-08. First, I started by selecting all data from the <marm>log\_in\_attempts</mark> table. Then, I used a <markWHERE</mark> clause with an OR operator to filter my results to output only login attempts that occurred on either <mark>2022-05-09 or 2022-05-08</mark>. The first condition is <mark>login\_date \= '2022-05-09'</mark>, which filters for logins on 2022-05-09. The second condition is <mark>login\_date \= '2022-05-08'</mark>, which filters for logins on 2022-05-08.
 
 ## Retrieve login attempts outside of Mexico
 
