@@ -69,6 +69,7 @@ The .join() method combines all items in an iterable into a string. The .join() 
 
 Then, I used another with statement and the .write() method to update the file:
 
+![write method in Python](https://github.com/user-attachments/assets/61321a80-bbdb-47d4-8d03-4e137b6e61b3)
 
 
 This time, I used a second argument of "w" with the open() function in my with statement. This argument indicates that I want to open a file to write over its contents. When using this argument "w", I can call the .write() function in the body of the with statement. The .write() function writes string data to a specified file and replaces any existing file content. 
